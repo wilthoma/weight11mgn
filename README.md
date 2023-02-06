@@ -1,2 +1,8 @@
 # weight11mgn
-Data and code accompanying our paper
+
+This repository contains data and code accompanying our paper "Weight 11 compactly supported cohomology of moduli spaces of curves"
+
+Concretely, there are the following files:
+
+
+
