@@ -6,13 +6,11 @@ Euler characteristics of the weight 11 compactly supported cohomology of the mod
 
 To compute the Euler characteristics and reproduce the pdf follow the following steps:
 
-1. The mathematica notebook contains code to produce  a table of the Euler characteristics as elements of the ring of symmetric functions, and save them ti file. (Say "test.sage")
+1. The mathematica notebook contains code to produce  a table of the Euler characteristics as elements of the ring of symmetric functions, and save them to file. (Say "test.sage")
 
-2. Then, using sage run
-
-sage dempose.sage test.sage -tex
-
-to convert the Euler characteristic polynimals into an expression with Schur functions and run latex to produce the file "test.sage.pdF".
+2. Then, in the console run
+`sage dempose.sage test.sage -tex`
+to convert the Euler characteristic polynimals into an expression with Schur functions and run latex to produce the output file "test.sage.pdF".
 
 The result is then also written to polyout.txt for re-import into mathematica.
 
