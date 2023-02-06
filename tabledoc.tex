@@ -1,0 +1,25 @@
+\documentclass[margin=10mm]{standalone}
+
+%\usepackage[paperwidth=200in,paperheight=30in]{geometry}
+
+\usepackage{color, colortbl}
+\usepackage{array}
+\usepackage{varwidth} %for the varwidth minipage environment
+
+\definecolor{Gray}{gray}{0.9}
+
+\newcolumntype{g}{>{\columncolor{Gray}}c}
+%\newcolumntype{M}{>{\begin{varwidth}{4cm}}c<{\end{varwidth}}} %M is for Maximal column
+\newcolumntype{M}{V{25cm}} %M is for Maximal column
+
+
+
+\begin{document}
+  \input{table.tex}
+  %\begin{tabular}{|g|M|M|M|M|M|M|M|M|M|M|M|M|M|} 
+   % \hline 
+    %\rowcolor{Gray} g,n & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 \\ 
+    %\hline
+%\end{tabular}
+
+\end{document}
